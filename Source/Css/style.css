@@ -504,6 +504,9 @@ body  {
     .g-item3 {
         padding: 20px;
     }
+    .f-item1 {
+        padding: 0px 10px;
+    }
 }
 
 @media only screen and (max-width : 850px) {
@@ -589,18 +592,106 @@ body  {
         display: none;
     }
 
-
-
-
-
-
-
-
-
-
-
-    
     
 }
 
+@media only screen and (max-width: 670px) {
+    .g-item1 {
+        gap: 24px;
+    }
+    .g-text1 {
+        font-size: 33px;
+    max-width: 465px;
+    }
+    .g-bottom {
+        display: none;
+    }
+    .g-item2 {
+        gap: 65px;
+    }
+    .image2 {
+        max-width: 154px;
+    }
+    .image2 img {
+        max-width: inherit;
+    }
+    .head-text2 {
+        font-size: 27px;
+    max-width: 176px;
+    font-weight: 100;
+    }
+    .g-item3 {
+        gap: 25px;
+    }
+    .platform-text {
+        font-weight: 100;
+    font-size: 29px;
+    }
+    .g-item4 {
+        gap: 28px;
+    }
+    .schedule-img img {
+        max-width: 194px;
+    }
+    .schedule-text {
+        font-weight: 100;
+    padding: 0px;
+    max-width: 297px;
+    font-size: 32px;
+    }
+    .g-item5 {
+        gap: 3px;
+    }
+    .head-percent  {
+        font-size: 44px;
+    font-weight: 100;
+    }
+    .par-percent {
+        font-size: 24px;
+    margin-bottom: -21px;
+    font-weight: 100;
+    }
+    .img-percent img {
+        max-width: 222px;
+    padding-top: 5px;
+    }
+    .g-item6 {
+        gap: 5px;
+    }
+    .text-stat {
+        font-weight: 100;
+    font-size: 29px;
+    padding-right: 10px;
+    }
+    .img-stat {
+        max-width: 188px;
+    }
+    .f-item1 {
+        gap: 5px;
+    }
+    .text1 {
+        font-size: 30px;
+    }
+    .f-item2 {
+        gap: 3px;
+    }
+    .box2 img {
+        max-width: 176px;
+    }
+    .text2 {
+        font-size: 31px;
+    }
 
+
+
+
+
+
+
+
+
+
+
+
+    
+}
