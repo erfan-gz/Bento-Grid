@@ -35,6 +35,7 @@ body  {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
     
 }
 
@@ -282,7 +283,7 @@ body  {
 
 }
 .head-percent {
-    font-size: 73px;
+    font-size: 61px;
     font-family: 'DMSans-Regular';
     font-weight: 600;
     margin-left: -73px;
@@ -367,6 +368,9 @@ body  {
     }
     .bottom-text2 {
         font-size: 16px;
+    }
+    .head-percent {
+        font-size: 54px;
     }
     
 }
@@ -471,7 +475,7 @@ body  {
     }
     .image2 {
         position: static;
-    max-width: auto;
+        max-width: 264px;
     }
     .button {
             padding-top: 85px;
@@ -480,7 +484,7 @@ body  {
         font-size: 28px;
     }
     .head-percent {
-        font-size: 66px;
+        font-size: 48px;
     padding-left: 22px;
     }
     .par-percent {
@@ -506,6 +510,13 @@ body  {
     }
     .f-item1 {
         padding: 0px 10px;
+    }
+    
+    .bottom-text2 {
+        font-size: 21px;
+    }
+    .image2 img {
+        max-width: inherit;
     }
 }
 
@@ -673,7 +684,7 @@ body  {
         font-size: 30px;
     }
     .f-item2 {
-        gap: 3px;
+        gap: 8px;
     }
     .box2 img {
         max-width: 176px;
@@ -681,15 +692,78 @@ body  {
     .text2 {
         font-size: 31px;
     }
+}
 
-
-
-
-
-
-
-
-
+@media only screen and (max-width: 550px) {
+    .g-item1 {
+            gap: 12px;
+    }
+    .g-text1 {
+        font-size: 25px;
+    padding: 0px 28px;
+    max-width: 397px;
+    }
+    .star {
+        max-width: 115px;
+    }
+    .g-item2 {
+        gap: 39px;
+    }
+    .head-text2 {
+        font-size: 21px;
+    }
+    .platform img  {
+        max-width: 262px;
+    }
+    .platform-text {
+        font-size: 19px;
+    }
+    .schedule-img img {
+        max-width: 158px;
+    }
+    .schedule-text {
+        font-size: 21px;
+    }
+    .head-percent {
+        font-size: 35px;
+    }
+    .par-percent {
+        font-size: 16px;
+    }
+    .img-percent img {
+        max-width: 178px;
+    }
+    .g-item6 {
+            gap: 8px;
+    } 
+    .text-stat {
+        font-size: 19px;
+    }
+    .img-stat {
+        max-width: 135px;
+    }
+    .f-item1 {
+        gap: 16px;
+    }
+    .button {
+        max-width: 146px;
+    }
+    .text1 {
+        font-size: 23px;
+    max-width: 216px;
+    font-weight: 500;
+    }
+    .f-item2 {
+        gap: 26px;
+    }
+    .box2 img {
+        max-width: 151px;
+    }
+    .text2 {
+        font-size: 24px;
+    max-width: 187px;
+    font-weight: 500;
+    }
 
 
 
