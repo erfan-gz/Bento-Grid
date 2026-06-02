@@ -184,6 +184,7 @@ body  {
 }
 .image2 {
     max-width: 445px;
+    width: 100%;
     position: absolute;
     top: auto;
     bottom: auto;
@@ -274,7 +275,7 @@ body  {
     flex-direction: column;
     gap: 19px;
     background-color: white;
-        padding: 20px;
+    padding: 29px;
 
 
 
@@ -413,6 +414,7 @@ body  {
     }
     .button {
     max-width: 302px;
+        padding-top: 85px;
     }
     .text2 {
     font-size: 63px;
@@ -470,6 +472,35 @@ body  {
     .image2 {
         position: static;
     max-width: auto;
+    }
+    .button {
+            padding-top: 85px;
+    }
+    .schedule-text {
+        font-size: 28px;
+    }
+    .head-percent {
+        font-size: 66px;
+    padding-left: 22px;
+    }
+    .par-percent {
+            padding-left: 23px;
+    }
+    .platform-text {
+        font-size: 27px;
+    }
+    .text1 {
+        font-size: 53px;
+    padding-left: 43px;
+    }
+    .text2 {
+        font-size: 52px;
+    }
+    .f-item2 {
+            gap: 58px;
+    }
+    .g-item3 {
+        padding: 20px;
     }
 }
 
