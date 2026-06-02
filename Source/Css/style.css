@@ -492,18 +492,115 @@ body  {
     .text1 {
         font-size: 53px;
     padding-left: 43px;
+    padding: 26px;
     }
     .text2 {
         font-size: 52px;
     }
     .f-item2 {
             gap: 58px;
+                padding: 20px;
     }
     .g-item3 {
         padding: 20px;
     }
 }
 
+@media only screen and (max-width : 850px) {
+    .grid-section {
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    .g-item6 {
+            grid-row: 6 / 7;
+    grid-column: 1 / 4;
+    }
+    .g-item5 {
+        grid-row: 5 / 6;
+    grid-column: 1 / 4;
+    }
+    .g-item4 {
+        grid-row: 4 / 5;
+    grid-column: 1 / 4;
+    }
+    .g-item3 {
+        grid-row: 3 / 4;
+    grid-column: 1 / 4;
+    }
+    .g-text1 {
+        padding: 0px 11px;
+    }
+    .g-item3 {
+        position: static;
+    gap: 51px;
+    }
+    .platform img {
+        position: static;
+    max-width: 425px;
+    }
+    .platform-text {
+        font-size: 34px;
+    max-width: 405px;
+    text-align: center;
+    }
+    .g-item4 {
+        position: static;
+    flex-direction: row;
+    }
+    .schedule-img img {
+        transform: none;
+    position: static;
+    max-width: 255px;
+    }
+    .schedule-text {
+        font-size: 34px;
+    }
+    .head-percent {
+        text-align: center;
+    padding: 0px;
+    margin: 0px;
+    }
+    .par-percent {
+        font-size: 27px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    }
+    .img-percent img {
+        max-width: 301px;
+    }
+    .text-stat {
+        font-size: 34px;
+    max-width: 285px;
+    }
+    .button {
+        max-width: 200px;
+    }
+    .text1 {
+        font-size: 40px;
+    max-width: 259px;
+    padding: 10px;
+    }
+    .text2 {
+        font-size: 36px;
+    padding-left: 10px;
+    max-width: 305px;
+    }
+    .bottom-text2 {
+        display: none;
+    }
 
+
+
+
+
+
+
+
+
+
+
+    
+    
+}
 
 
